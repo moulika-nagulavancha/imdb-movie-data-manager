@@ -1,0 +1,5 @@
+{
+    "dbHost": "bolt://127.0.0.1:7687",
+    "dbUser": "neo4j",
+    "dbPass": "password"
+}
