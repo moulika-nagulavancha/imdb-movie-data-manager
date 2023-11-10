@@ -18,7 +18,7 @@ router.post('/', async function(req, res) {
   const description = req.body.description;
   const year = req.body.year;
   const runtime = req.body.runtime;
-  const rating = req.body.runtime;
+  const rating = req.body.rating;
   const votes = req.body.votes;
   const revenue = req.body.revenue;
 
@@ -104,4 +104,5 @@ router.delete('/:title', async function(req, res) {
 
   res.send('Delete success');
 });
+
 module.exports = router;
